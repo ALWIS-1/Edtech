@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="container">
-        <h2>Add User</h2>
+        <h2>Add User Account</h2>
         <form method="POST">
             <label for="full_name">Full Name</label>
             <input type="text" name="full_name" id="full_name" required>
@@ -39,4 +39,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </body>
 </html>
+
 
